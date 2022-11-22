@@ -131,7 +131,7 @@ ingress {
         protocol    = "tcp"
         description = "CIFS2"
       }
-       ingress {
+      ingress {
       cidr_blocks = ["0.0.0.0/0"]
       from_port   = 445
       to_port     = 445
